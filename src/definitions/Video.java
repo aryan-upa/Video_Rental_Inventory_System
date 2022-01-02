@@ -1,8 +1,20 @@
 package definitions;
 
 public class Video {
+
+    /**
+     * The name of the Video
+     */
     private String videoName;
+
+    /**
+     * The rating of the Video.
+     */
     private int rating;
+
+    /**
+     * The checkOut status of the Video.
+     */
     private boolean checkOut;
 
     /**
@@ -57,6 +69,44 @@ public class Video {
      */
     public void setVideoName(String videoName) {
         this.videoName = videoName;
+    }
+
+    /**
+     * Non-Parameterized constructor.
+     * Sets default values of the
+     * videoName : No-Name
+     * rating : 0
+     * checkOut : false
+     */
+    public Video() {
+        this.videoName = "No-Name";
+        this.rating = 0;
+        this.checkOut = false;
+    }
+
+    /**
+     * Parameterized Constructor Method : Sets the videoName, Rating, checkOut status according to the input parameters.
+     *
+     * @param videoName : The name of the Video.
+     * @param rating    : The rating of the Video.
+     * @param checkOut  : The checkOut status of the video.
+     */
+    public Video(String videoName, int rating, boolean checkOut) {
+        this.videoName = videoName;
+        this.rating = rating;
+        this.checkOut = checkOut;
+    }
+
+    /**
+     * Parameterized Constructor Method : Sets the videoName according to the parameter.
+     * Sets Rating = 3, checkOut = false.
+     *
+     * @param videoName : Name of the video.
+     */
+    public Video(String videoName) {
+        this.videoName = videoName;
+        rating = 3;
+        checkOut = false;
     }
 
 
