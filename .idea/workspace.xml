@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="add the main method in the Main.java class">
+    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="removed comments.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definitions/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/definitions/Video.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/execution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641136264125</updated>
       <workItem from="1641136265344" duration="2789000" />
-      <workItem from="1641139577194" duration="1710000" />
+      <workItem from="1641139577194" duration="2359000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1641137055781</created>
@@ -118,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641142682765</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create an object of Video.java class">
+      <created>1641143637739</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641143637739</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed comments.">
+      <created>1641143671486</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641143671486</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +158,9 @@
     <MESSAGE value="add fields for the Video.java" />
     <MESSAGE value="Create a method to return the Video name in the Video.java class." />
     <MESSAGE value="add the main method in the Main.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the main method in the Main.java class" />
+    <MESSAGE value="create an object of Video.java class" />
+    <MESSAGE value="removed comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="removed comments." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

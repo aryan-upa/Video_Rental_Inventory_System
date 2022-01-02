@@ -14,5 +14,11 @@ public class Video {
         return videoName;
     }
 
+    public int getRating() {
+        return rating;
+    }
 
+    public boolean isCheckOut() {
+        return checkOut;
+    }
 }
