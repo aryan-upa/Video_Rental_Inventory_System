@@ -68,6 +68,12 @@ public class Video {
         System.out.println("Thank you for renting.");
     }
 
+    /**
+     * This method allows the customer to return the video.
+     */
+    public void doReturn() {
+        System.out.println("Thank you for returning " + getVideoName() + " .");
+    }
 
     /**
      * This method the Checkout Status of the video.
