@@ -1,6 +1,8 @@
 package definitions;
 
 
+import java.util.Objects;
+
 /**
  * This is the Video class, it holds the basic fields of a video object and their respective methods.
  *
@@ -123,7 +125,6 @@ public class Video {
      *
      * @return : The details of the object [videoName, rating, checkOut].
      */
-
     @Override
     public String toString() {
         return "Video{" +
@@ -131,6 +132,19 @@ public class Video {
                 ", rating=" + rating +
                 ", checkOut=" + checkOut +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Video video = (Video) o;
+        return getRating() == video.getRating() && isCheckOut() == video.isCheckOut() && Objects.equals(getVideoName(), video.getVideoName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getVideoName(), getRating(), isCheckOut());
     }
 
 
