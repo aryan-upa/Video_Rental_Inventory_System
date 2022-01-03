@@ -9,31 +9,50 @@ public class VideoStore {
      */
     private Video[] store;
 
-    // Constructor
+    /**
+     * Defines the size of the Video store array.
+     */
+    private int storeSize;
+
+    {
+        storeSize = 5;
+    }
+
     public VideoStore() {
-        this.store = new Video[5];
+        this.store = new Video[storeSize];
         for (int i = 0; i < store.length; i++) {
             store[i] = new Video();
         }
     }
 
-    // Getter
+    public VideoStore(int storeSize) {
+        this.store = new Video[storeSize];
+        for (int i = 0; i < store.length; i++) {
+            store[i] = new Video();
+        }
+    }
+
     public Video[] getStore() {
         return store.clone();
     }
 
-    // Setter
+    public int getStoreSize() {
+        return storeSize;
+    }
+
     public void setStore(Video[] store) {
         this.store = store;
     }
 
-    // toString()
+    public void setStoreSize(int storeSize) {
+        this.storeSize = storeSize;
+    }
+
     @Override
     public String toString() {
         return Arrays.toString(store);
     }
 
-    // equals() and hashcode()
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
