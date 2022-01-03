@@ -17,6 +17,8 @@ public class VideoLauncher {
         Scanner sc = new Scanner(System.in);
         int customerInput;
         VideoStore myVideoStore = new VideoStore();
+        String videoName;
+        int videoRating;
         do {
             System.out.println("MAIN MENU");
             System.out.println("=========");
@@ -28,17 +30,36 @@ public class VideoLauncher {
             System.out.println("6. Exit : ");
             System.out.println("Enter your choice (1..6) : ");
             customerInput = sc.nextInt();
+
             switch (customerInput) {
-                case ADD_VIDEO:
-                    break;
-                case CHECK_OUT_VIDEO:
-                    break;
-                case RETURN_VIDEO:
-                    break;
-                case RECEIVE_RATING:
-                    break;
-                case LIST_INVENTORY:
-                    break;
+                case ADD_VIDEO -> {
+                    System.out.println("Enter the name of the video you want to add...");
+                    sc.nextLine();
+                    videoName = sc.nextLine();
+                    myVideoStore.addVideo(videoName);
+                }
+                case CHECK_OUT_VIDEO -> {
+                    System.out.println("Enter the name of the video you want to add...");
+                    sc.nextLine();
+                    videoName = sc.nextLine();
+                    myVideoStore.doCheckOut(videoName);
+                }
+                case RETURN_VIDEO -> {
+                    System.out.println("Enter the name of the video you want to return...");
+                    sc.nextLine();
+                    videoName = sc.nextLine();
+                    myVideoStore.doReturn(videoName);
+                }
+                case RECEIVE_RATING -> {
+                    System.out.println("Enter the name of the video whose rating you want to add...");
+                    sc.nextLine();
+                    videoName = sc.nextLine();
+                    System.out.println("Enter the rating: ");
+                    videoRating = sc.nextInt();
+                    myVideoStore.recieveRating(videoName, videoRating);
+                }
+                case LIST_INVENTORY -> myVideoStore.listInventory();
+                default -> System.out.println("This is an Invalid Input!");
             }
         } while (customerInput != 6);
         sc.close();

@@ -4,7 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="create the menu and take input from the user.">
+    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="create switch for menu and static values in VideoLauncher.java for switch statements.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoRentalInventorySystem/definitions/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoRentalInventorySystem/definitions/Video.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoRentalInventorySystem/execution/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definitions/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/definitions/VideoStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/execution/VideoLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/VideoLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +86,7 @@
       <workItem from="1641176078354" duration="737000" />
       <workItem from="1641192436588" duration="1765000" />
       <workItem from="1641199609344" duration="2888000" />
-      <workItem from="1641221071381" duration="6137000" />
+      <workItem from="1641221071381" duration="7224000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1641137055781</created>
@@ -287,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641228321642</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="create switch for menu and static values in VideoLauncher.java for switch statements.">
+      <created>1641228771419</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1641228771419</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +317,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create Video.java" />
     <MESSAGE value="add fields for the Video.java" />
     <MESSAGE value="Create a method to return the Video name in the Video.java class." />
     <MESSAGE value="add the main method in the Main.java class" />
@@ -331,7 +341,8 @@
     <MESSAGE value="create a method to change the rating of a video in VideoStore.java file." />
     <MESSAGE value="create a method to print all the elements of the store array." />
     <MESSAGE value="create the menu and take input from the user." />
-    <option name="LAST_COMMIT_MESSAGE" value="create the menu and take input from the user." />
+    <MESSAGE value="create switch for menu and static values in VideoLauncher.java for switch statements." />
+    <option name="LAST_COMMIT_MESSAGE" value="create switch for menu and static values in VideoLauncher.java for switch statements." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
