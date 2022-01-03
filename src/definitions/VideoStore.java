@@ -62,4 +62,13 @@ public class VideoStore {
         System.out.println("Thank you for renting \"" + name + "\"");
     }
 
+    /**
+     * This method allows the customer to return a video that they rented.
+     *
+     * @param name : Name of the video that they returned.
+     */
+    public void doReturn(String name) {
+        System.out.println("Thank you for returning the \"" + name + "\" video.");
+    }
+
 }
