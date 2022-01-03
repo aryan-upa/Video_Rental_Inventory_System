@@ -71,4 +71,14 @@ public class VideoStore {
         System.out.println("Thank you for returning the \"" + name + "\" video.");
     }
 
+    /**
+     * This method will allow us to set a new rating for a video.
+     *
+     * @param name   : The name of the video for which we need to receive the rating.
+     * @param rating : The rating we need to give to the video.
+     */
+    public void recieveRating(String name, int rating) {
+
+    }
+
 }

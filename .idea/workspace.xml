@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="create components method in the VideoStore.java file.">
+    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="create a method to return a video that the customer rented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/definitions/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/definitions/VideoStore.java" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <workItem from="1641176078354" duration="737000" />
       <workItem from="1641192436588" duration="1765000" />
       <workItem from="1641199609344" duration="2888000" />
-      <workItem from="1641221071381" duration="2840000" />
+      <workItem from="1641221071381" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1641137055781</created>
@@ -238,7 +238,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641223664590</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="create the addVideo method in the VideoStore.java file.">
+      <created>1641223963791</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1641223963791</updated>
+    </task>
+    <task id="LOCAL-00024" summary="create a method to rent a video from Video Store.">
+      <created>1641224092444</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1641224092444</updated>
+    </task>
+    <task id="LOCAL-00025" summary="create a method to return a video that the customer rented.">
+      <created>1641224238603</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1641224238603</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +299,10 @@
     <MESSAGE value="create VideoStore.java ." />
     <MESSAGE value="create an array to store the videos in VideoStore.java ." />
     <MESSAGE value="create components method in the VideoStore.java file." />
-    <option name="LAST_COMMIT_MESSAGE" value="create components method in the VideoStore.java file." />
+    <MESSAGE value="create the addVideo method in the VideoStore.java file." />
+    <MESSAGE value="create a method to rent a video from Video Store." />
+    <MESSAGE value="create a method to return a video that the customer rented." />
+    <option name="LAST_COMMIT_MESSAGE" value="create a method to return a video that the customer rented." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
