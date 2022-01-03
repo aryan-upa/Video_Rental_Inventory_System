@@ -1,5 +1,11 @@
 package definitions;
 
+
+/**
+ * This is the Video class, it holds the basic fields of a video object and their respective methods.
+ *
+ * @author : Aryan Upadhyay
+ */
 public class Video {
 
     /**
@@ -36,6 +42,15 @@ public class Video {
     }
 
     /**
+     * This method returns the checkOut status.
+     *
+     * @return checkOut Status.
+     */
+    public boolean isCheckOut() {
+        return checkOut;
+    }
+
+    /**
      * This method sets the rating of the video.
      *
      * @param rating : The rating of the video.
@@ -44,14 +59,6 @@ public class Video {
         this.rating = rating;
     }
 
-    /**
-     * This method returns the checkOut status.
-     *
-     * @return checkOut Status.
-     */
-    public boolean isCheckOut() {
-        return checkOut;
-    }
 
     /**
      * This method the Checkout Status of the video.

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="print message for the video name, rating and checkOut status.">
+    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="create the Non-parameterized and Parameterized constructor of Video.java class.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/definitions/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/definitions/Video.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/execution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/Main.java" afterDir="false" />
@@ -68,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641136264125</updated>
       <workItem from="1641136265344" duration="2789000" />
-      <workItem from="1641139577194" duration="5484000" />
+      <workItem from="1641139577194" duration="6601000" />
+      <workItem from="1641176078354" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1641137055781</created>
@@ -154,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641146128512</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create the Non-parameterized and Parameterized constructor of Video.java class.">
+      <created>1641148036978</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641148036978</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +196,8 @@
     <MESSAGE value="create Getter Methods for the Rating and Checkout." />
     <MESSAGE value="add mutator methods for the Video.java fields." />
     <MESSAGE value="print message for the video name, rating and checkOut status." />
-    <option name="LAST_COMMIT_MESSAGE" value="print message for the video name, rating and checkOut status." />
+    <MESSAGE value="create the Non-parameterized and Parameterized constructor of Video.java class." />
+    <option name="LAST_COMMIT_MESSAGE" value="create the Non-parameterized and Parameterized constructor of Video.java class." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
