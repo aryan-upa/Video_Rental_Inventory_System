@@ -61,6 +61,13 @@ public class Video {
         this.rating = rating;
     }
 
+    /**
+     * This method will allow the customer to rent a video.
+     */
+    public void doCheckOut() {
+        System.out.println("Thank you for renting.");
+    }
+
 
     /**
      * This method the Checkout Status of the video.
@@ -134,6 +141,12 @@ public class Video {
                 '}';
     }
 
+    /**
+     * This method helps in comparing two instances of the Video class.
+     *
+     * @param o : Another object of the reference type.
+     * @return : Boolean value whether the objects are same or not.
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -142,6 +155,11 @@ public class Video {
         return getRating() == video.getRating() && isCheckOut() == video.isCheckOut() && Objects.equals(getVideoName(), video.getVideoName());
     }
 
+    /**
+     * This method returns the hashcode of the fields in the video class.
+     *
+     * @return : Integer value of the hashes.
+     */
     @Override
     public int hashCode() {
         return Objects.hash(getVideoName(), getRating(), isCheckOut());
