@@ -116,5 +116,22 @@ public class Video {
         checkOut = false;
     }
 
+    /**
+     * This method provides ease in printing the details of the object of the class.
+     * The println() method implicitly calls the toString method, and by defining this here we help, in printing the
+     * fields of the object by just printing the object.
+     *
+     * @return : The details of the object [videoName, rating, checkOut].
+     */
+
+    @Override
+    public String toString() {
+        return "Video{" +
+                "videoName='" + videoName + '\'' +
+                ", rating=" + rating +
+                ", checkOut=" + checkOut +
+                '}';
+    }
+
 
 }
