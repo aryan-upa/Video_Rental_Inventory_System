@@ -78,7 +78,7 @@ public class VideoStore {
      * @param rating : The rating we need to give to the video.
      */
     public void recieveRating(String name, int rating) {
-
+        System.out.println("The new rating of \"" + name + "\" is now " + rating + " .");
     }
 
 }
