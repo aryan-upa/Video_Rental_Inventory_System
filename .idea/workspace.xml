@@ -4,8 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="create doReturn method in the video.java class.">
-      <change beforePath="$PROJECT_DIR$/src/definitions/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/definitions/Video.java" afterDir="false" />
+    <list default="true" id="1db64323-4fbe-4b92-ba68-7f6eb37633a5" name="Changes" comment="create VideoStore.java .">
+      <change beforePath="$PROJECT_DIR$/src/definitions/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/definitions/VideoStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1641176078354" duration="737000" />
       <workItem from="1641192436588" duration="1765000" />
       <workItem from="1641199609344" duration="2888000" />
-      <workItem from="1641221071381" duration="1719000" />
+      <workItem from="1641221071381" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1641137055781</created>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641222642571</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="create VideoStore.java .">
+      <created>1641222978686</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1641222978686</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +252,8 @@
     <MESSAGE value="create equals and hashcode method in the Video.java file." />
     <MESSAGE value="create doCheckOut method in the video.java class." />
     <MESSAGE value="create doReturn method in the video.java class." />
-    <option name="LAST_COMMIT_MESSAGE" value="create doReturn method in the video.java class." />
+    <MESSAGE value="create VideoStore.java ." />
+    <option name="LAST_COMMIT_MESSAGE" value="create VideoStore.java ." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
